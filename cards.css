@@ -1,0 +1,62 @@
+main {
+  width: 80%;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+}
+
+main :is(figure, figcaption) {
+  display: flex; 
+  flex-flow: column;
+  align-items: center;
+  gap: 4px;
+
+}
+
+main figure {
+  padding: 32px;
+  border-radius: 10px;
+  background-color: #303339;
+  box-shadow: 0 0 0.4rem 0.1rem #0003;
+  text-align: center;
+}
+
+main figure img {
+  width: 80px;
+  object-fit: cover;
+}
+
+main figcaption .title {
+  font-size: 20px;
+}
+
+main figcaption .subtitle {
+  font-size: 15px;
+  color: #999;
+}
+
+@media (max-width: 1140px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 890px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 690px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

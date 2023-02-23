@@ -1,0 +1,145 @@
+* {
+  font-family: "Arial", Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  background-color: #292c2e;
+  color: #fff;
+}
+
+.navbarmain {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: inline;
+  float: left;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  border-bottom: 2px solid #c5c5c5;
+  border-top: 2px solid #c5c5c5;
+}
+
+.navbar a {
+  padding: 20px;
+}
+
+.navbar:last-child {
+  border-right: none;
+}
+
+.navbar li {
+  font-size: 35px
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ddd
+}
+
+.article {
+  font-size: 110%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  
+}
+
+.card {
+  color: #ddd;
+  transition: 300ms;
+  display: grid;
+}
+
+.card:link, .card:visited, .card:active {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.card:hover {
+  scale: 1.1;
+}
+
+.logo {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 1rem 0.3rem #0003;
+  border-radius: 50%;
+  transition: 600ms;
+}
+
+.logo:hover {
+  scale: 1.1;
+}
+
+a {
+  text-decoration: none;
+  color: #1a57ff
+}
+
+.w {
+  color: #fff;
+}
+
+.g {
+  color: #ddd
+}
+
+.line {
+  font-size: 20px
+}
+
+.page {
+  font-size: 35px;
+  transition: 600ms;
+}
+
+.page:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+}
+
+.faq {
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .page {
+    font-size: 30px
+  }
+}
+
+@media (max-width: 560px) {
+  .navbar a {
+    padding: 30px
+  }
+}
+
+@media (max-width: 560px) {
+  .navbar a {
+    padding: 30px
+  }
+}
+
+@media (max-width: 560px) {
+  .line {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  header {
+    scale: 0.8;
+  }
+}
