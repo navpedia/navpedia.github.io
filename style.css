@@ -93,7 +93,8 @@ a {
 }
 
 .line {
-  font-size: 20px
+  font-size: 20px;
+  letter-spacing: -5px;
 }
 
 .page {
@@ -111,6 +112,57 @@ header {
 }
 
 .faq {
+  text-align: center;
+}
+
+.article header {
+  text-align: center;
+}
+
+.article header img {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  border-spacing: 0;
+  width: 600px;
+  table-layout: fixed;
+  margin: 0 auto;
+  border-radius: 25px;
+  background-color: #131313b7;
+  padding: 5px;
+}
+
+.rightborder {
+  border-right: 2px solid #ddd;
+  border-left: none
+}
+
+.leftborder {
+  border-left: 2px solid #ddd;
+  border-right: none
+}
+
+.extreme1 {border-top-left-radius: 20px; border-top: 2px solid #ddd}
+.extreme2 {border-top-right-radius: 20px; border-top: 2px solid #ddd}
+.extreme3 {border-bottom-left-radius: 20px; border-bottom: 2px solid #ddd;}
+.extreme4 {border-bottom-right-radius: 20px; border-bottom: 2px solid #ddd;}
+
+.cats {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.title {
   text-align: center;
 }
 
